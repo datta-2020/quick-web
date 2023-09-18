@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/********************* global css start **************************/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+
+/********************* global css end **************************/
+
+
+/********************* quick css web start *********************/
+.header{
+	width: 100%;
+	float: left;
+	background: white;
+	border-bottom: 2px solid #eee;
+	padding: 10px 0px;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin: 10px 0px 0px;
+
+}
+.nav li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px;
+}
+
+.nav li a{
+	padding-left: 20px;
+	font-size: 20;
+	font-weight: 700 ;
+	color: #0F2656;
+	margin: 0px 10px;
+}
+.nav li a:hover, .nav li a:focus{
+	color: #0089FE;
+
+}
+.header .logo{
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+.header .logo img{
+	width: 90px;
+}
+.header .nav{
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+}
+
+.banner{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	text-align: center;
+}
+
+.banner h1{
+	font-size: 50px;
+	list-height: 60px;
+	color: #0F2656;
+}
+
+.banner h1 span{
+	color: #0089FE;
+}
+
+.banner p{
+	font-size: 17px;
+	list-height: 27px;
+	color: #0F2656;
+	margin: 20px 0px;
+}
+
+.banner .banner-img{
+	width: 55%;
+}
+
+.successfull{
+	width: 100%;
+	float: left;
+}
+
+.successfull .left-text{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+
+
+.successfull .left-text h2{
+	font-size: 50px;
+	line-height: 60px;
+	color: #F05767;
+	margin-right: 30px;
+}
+
+.successfull .left-text p{
+	font-size: 17px;
+	line-height: 27px;
+	color: #F05767;
+	margin-left: 35px;
+}
+
+.successfull .right-text{
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+
+.successfull .right-text h2{
+	font-size: 50px;
+	line-height: 60px;
+	color: #0F2656;
+	margin-left: 30px;
+}
+
+.feature{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+
+.feature .inner-feature{
+	width: 80%;
+	float: left;
+	padding: 40px 20px;
+}
+
+.feature .inner-feature img{
+	width: 80%;
+	height: 200px;
+}
+
+.feature .inner-feature h3{
+	font-size: 27px;
+	text-align: left;
+	color: #0F2656;
+}
+
+.feature .inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+	color: #0F2656;
+	margin-top: 15px;
+}
+
+.cl1{
+	background: #FCEAEC;
+	text-align: center;
+}
+
+.cl2{
+	background: #EAF8F3;
+	text-align: center;
+}
+
+.cl3{
+	background: #FEF6E7;
+	text-align: center;
+}
+
+
+.footer{
+	width: 100%;
+	float: left;
+	background: #0089FE;
+	padding: 20px 0px;
+}
+
+.footer p{
+	font-size: 18px;
+	text-align: center;
+	color: #eee;
+}
+
+.footer p span{
+	font-size: 22px;
+	text-transform: capitalize;
+	color: #fff;
+}
